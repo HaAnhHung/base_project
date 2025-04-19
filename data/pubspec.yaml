@@ -27,10 +27,10 @@ dependencies:
   flutter:
     sdk: flutter
   get_it: 7.6.7
-  gql: 0.14.0
-  gql_dio_link: 0.3.0
-  gql_exec: 0.4.3
-  gql_link: 0.5.1
+  # gql: 0.14.0
+  # gql_dio_link: 0.3.0
+  # gql_exec: 0.4.3
+  # gql_link: 0.5.1
   injectable: 2.5.0
   json_annotation: 4.8.1
   objectbox: 2.5.0
