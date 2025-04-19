@@ -1,2 +1,11 @@
 build/
 .dart_tool/
+
+*.g.dart
+*.gr.dart
+*.freezed.dart
+*.config.dart
+*.mocks.dart
+*.gen.dart
+
+pubspec.lock
