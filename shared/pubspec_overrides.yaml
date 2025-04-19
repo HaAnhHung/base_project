@@ -1,0 +1,5 @@
+# melos_managed_dependency_overrides: nals_lints,analyzer
+dependency_overrides:
+  nals_lints:
+    path: ../nals_lints
+  analyzer: 6.10.0

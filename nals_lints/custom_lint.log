@@ -1453,3 +1453,131 @@ at:
 #6      Future._completeError (dart:async/future_impl.dart:730:5)
 <asynchronous suspension>
 
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+The package "analyzer" has incompatible version constraints in the project:
+- "6.10.0"
+  from "app" at "./Users/macbookair/base_project/app/pubspec_overrides.yaml".
+- "6.2.0"
+  from "nals_lints" at "./Users/macbookair/base_project/nals_lints/pubspec_overrides.yaml".
+- "6.10.0"
+  from "domain" at "./Users/macbookair/base_project/domain/pubspec_overrides.yaml".
+- "6.10.0"
+  from "shared" at "./Users/macbookair/base_project/shared/pubspec_overrides.yaml".
+- "6.10.0"
+  from "data" at "./Users/macbookair/base_project/data/pubspec_overrides.yaml".
+
+at:
+#0      _buildDependencyConstraint.throws (package:custom_lint/src/workspace.dart:40:23)
+#1      _buildDependencyConstraint (package:custom_lint/src/workspace.dart:62:36)
+#2      CustomLintWorkspace._writeDependencyOverrides (package:custom_lint/src/workspace.dart:692:26)
+#3      CustomLintWorkspace._writePubspecDependencies (package:custom_lint/src/workspace.dart:667:5)
+#4      CustomLintWorkspace.computePubspec (package:custom_lint/src/workspace.dart:554:5)
+#5      CustomLintWorkspace.resolvePluginHost (package:custom_lint/src/workspace.dart:740:28)
+#6      SocketCustomLintServerToClientChannel._startProcess (package:custom_lint/src/v2/server_to_client_channel.dart:151:24)
+#7      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:110:22)
+#8      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:394:25)
+<asynchronous suspension>
+#9      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:341:9)
+<asynchronous suspension>
+#10     PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#11     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:173:22)
+<asynchronous suspension>
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+The package "analyzer" has incompatible version constraints in the project:
+- "6.10.0"
+  from "app" at "./Users/macbookair/base_project/app/pubspec_overrides.yaml".
+- "6.2.0"
+  from "nals_lints" at "./Users/macbookair/base_project/nals_lints/pubspec_overrides.yaml".
+- "6.10.0"
+  from "domain" at "./Users/macbookair/base_project/domain/pubspec_overrides.yaml".
+- "6.10.0"
+  from "shared" at "./Users/macbookair/base_project/shared/pubspec_overrides.yaml".
+- "6.10.0"
+  from "data" at "./Users/macbookair/base_project/data/pubspec_overrides.yaml".
+
+at:
+#0      _buildDependencyConstraint.throws (package:custom_lint/src/workspace.dart:40:23)
+#1      _buildDependencyConstraint (package:custom_lint/src/workspace.dart:62:36)
+#2      CustomLintWorkspace._writeDependencyOverrides (package:custom_lint/src/workspace.dart:692:26)
+#3      CustomLintWorkspace._writePubspecDependencies (package:custom_lint/src/workspace.dart:667:5)
+#4      CustomLintWorkspace.computePubspec (package:custom_lint/src/workspace.dart:554:5)
+#5      CustomLintWorkspace.resolvePluginHost (package:custom_lint/src/workspace.dart:740:28)
+#6      SocketCustomLintServerToClientChannel._startProcess (package:custom_lint/src/v2/server_to_client_channel.dart:151:24)
+#7      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:110:22)
+#8      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:394:25)
+<asynchronous suspension>
+#9      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:341:9)
+<asynchronous suspension>
+#10     PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#11     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:173:22)
+<asynchronous suspension>
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+The package "analyzer" has incompatible version constraints in the project:
+- "6.10.0"
+  from "app" at "./Users/macbookair/base_project/app/pubspec_overrides.yaml".
+- "6.2.0"
+  from "nals_lints" at "./Users/macbookair/base_project/nals_lints/pubspec_overrides.yaml".
+- "6.10.0"
+  from "domain" at "./Users/macbookair/base_project/domain/pubspec_overrides.yaml".
+- "6.10.0"
+  from "shared" at "./Users/macbookair/base_project/shared/pubspec_overrides.yaml".
+- "6.10.0"
+  from "data" at "./Users/macbookair/base_project/data/pubspec_overrides.yaml".
+
+at:
+#0      _buildDependencyConstraint.throws (package:custom_lint/src/workspace.dart:40:23)
+#1      _buildDependencyConstraint (package:custom_lint/src/workspace.dart:62:36)
+#2      CustomLintWorkspace._writeDependencyOverrides (package:custom_lint/src/workspace.dart:692:26)
+#3      CustomLintWorkspace._writePubspecDependencies (package:custom_lint/src/workspace.dart:667:5)
+#4      CustomLintWorkspace.computePubspec (package:custom_lint/src/workspace.dart:554:5)
+#5      CustomLintWorkspace.resolvePluginHost (package:custom_lint/src/workspace.dart:740:28)
+#6      SocketCustomLintServerToClientChannel._startProcess (package:custom_lint/src/v2/server_to_client_channel.dart:151:24)
+#7      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:110:22)
+#8      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:394:25)
+<asynchronous suspension>
+#9      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:341:9)
+<asynchronous suspension>
+#10     PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#11     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:173:22)
+<asynchronous suspension>
+
+The request analysis.setContextRoots failed with the following error:
+RequestErrorCode.PLUGIN_ERROR
+The package "analyzer" has incompatible version constraints in the project:
+- "6.10.0"
+  from "app" at "./Users/macbookair/base_project/app/pubspec_overrides.yaml".
+- "6.2.0"
+  from "nals_lints" at "./Users/macbookair/base_project/nals_lints/pubspec_overrides.yaml".
+- "6.10.0"
+  from "domain" at "./Users/macbookair/base_project/domain/pubspec_overrides.yaml".
+- "6.10.0"
+  from "shared" at "./Users/macbookair/base_project/shared/pubspec_overrides.yaml".
+- "6.10.0"
+  from "data" at "./Users/macbookair/base_project/data/pubspec_overrides.yaml".
+
+at:
+#0      _buildDependencyConstraint.throws (package:custom_lint/src/workspace.dart:40:23)
+#1      _buildDependencyConstraint (package:custom_lint/src/workspace.dart:62:36)
+#2      CustomLintWorkspace._writeDependencyOverrides (package:custom_lint/src/workspace.dart:692:26)
+#3      CustomLintWorkspace._writePubspecDependencies (package:custom_lint/src/workspace.dart:667:5)
+#4      CustomLintWorkspace.computePubspec (package:custom_lint/src/workspace.dart:554:5)
+#5      CustomLintWorkspace.resolvePluginHost (package:custom_lint/src/workspace.dart:740:28)
+#6      SocketCustomLintServerToClientChannel._startProcess (package:custom_lint/src/v2/server_to_client_channel.dart:151:24)
+#7      SocketCustomLintServerToClientChannel.init (package:custom_lint/src/v2/server_to_client_channel.dart:110:22)
+#8      CustomLintServer._maybeSpawnCustomLintPlugin (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:394:25)
+<asynchronous suspension>
+#9      CustomLintServer._handleAnalysisSetContextRoots.<anonymous closure> (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:341:9)
+<asynchronous suspension>
+#10     PendingOperation.run (package:custom_lint/src/async_operation.dart:22:14)
+<asynchronous suspension>
+#11     CustomLintServer._handleRequest (package:custom_lint/src/v2/custom_lint_analyzer_plugin.dart:173:22)
+<asynchronous suspension>
+
