@@ -9,3 +9,5 @@ build/
 *.gen.dart
 
 pubspec.lock
+/.idea
+*generated

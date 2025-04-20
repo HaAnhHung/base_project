@@ -64,9 +64,9 @@ https://user-images.githubusercontent.com/22645452/204954653-a704d380-0f6a-419d-
 
 ### Requirements
 
-- Dart: 3.1.0
-- Flutter SDK: 3.13.1
-- Melos: 3.1.0
+- Dart: 3.1.0 -> 3.7.2
+- Flutter SDK: 3.13.1 -> 3.29.3
+- Melos: 3.1.0 -> 4.1.0 | 6.3.2
 - CocoaPods: 1.12.0
 
 ### Install
@@ -79,7 +79,7 @@ https://user-images.githubusercontent.com/22645452/204954653-a704d380-0f6a-419d-
 - Install lefthook (optional):
     - Run `gem install lefthook`
 
-- Export paths:
+- Export paths: iOS
     - Add to `.zshrc` or `.bashrc` file
 ```    
 export PATH="$PATH:<path to flutter>/flutter/bin"
