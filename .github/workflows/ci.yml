@@ -1,0 +1,59 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master  
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: cirrusci/flutter:3.29.3
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Flutter doctor
+        run: flutter doctor -v
+
+      - name: Install melos
+        run: |
+          dart pub global activate melos 4.1.0
+          echo "$HOME/.pub-cache/bin" >> $GITHUB_PATH
+
+      - name: Run build_runner (make sync)
+        run: make sync
+
+      # - name: Run Unit Test
+      #   run: make test
+
+      - name: Check format
+        run: make format
+
+      - name: Run analyze app
+        run: make analyze_app
+      - name: Run analyze data
+        run: make analyze_data
+      - name: Run analyze domain
+        run: make analyze_domain
+      - name: Run analyze shared
+        run: make analyze_shared
+
+      - name: Run dart_code_metrics
+        run: make dart_code_metrics
+
+      # - name: Run metrics_app
+      #   run: make metrics_app
+      # - name: Run metrics_data
+      #   run: make metrics_data
+      # - name: Run metrics_domain
+      #   run: make metrics_domain
+      # - name: Run metrics_shared
+      #   run: make metrics_shared
+
+      - name: Check commit message
+        run: make check_commit_message
