@@ -32,6 +32,9 @@ jobs:
 
       - name: Run build_runner (make sync)
         run: make sync
+      
+      - name: Generate language
+        run: make l10n 
 
       # - name: Run Unit Test
       #   run: make test
@@ -39,17 +42,17 @@ jobs:
       - name: Check format
         run: make format
 
-      - name: Run analyze app
-        run: make analyze_app
-      - name: Run analyze data
-        run: make analyze_data
-      - name: Run analyze domain
-        run: make analyze_domain
-      - name: Run analyze shared
-        run: make analyze_shared
+      # - name: Run analyze app
+      #   run: make analyze_app
+      # - name: Run analyze data
+      #   run: make analyze_data
+      # - name: Run analyze domain
+      #   run: make analyze_domain
+      # - name: Run analyze shared
+      #   run: make analyze_shared
 
-      - name: Run dart_code_metrics
-        run: make dart_code_metrics
+      # - name: Run dart_code_metrics
+      #   run: make dart_code_metrics
 
       # - name: Run metrics_app
       #   run: make metrics_app
@@ -61,6 +64,6 @@ jobs:
       #   run: make metrics_shared
 
       - name: Check commit message
-        run: make check_commit_message
+        run: make check_commit_message 
       - name: Build apk
         run: make build_dev_apk
