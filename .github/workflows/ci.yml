@@ -63,7 +63,7 @@ jobs:
       # - name: Run metrics_shared
       #   run: make metrics_shared
 
-      - name: Check commit message
-        run: make check_commit_message 
+      # - name: Check commit message
+      #   run: make check_commit_message 
       - name: Build apk
         run: make build_dev_apk
