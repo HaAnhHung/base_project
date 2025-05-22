@@ -1,0 +1,28 @@
+{
+  "buildFiles": [
+    "/Users/macbookair/flutter/packages/flutter_tools/gradle/src/main/groovy/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/macbookair/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+      "-C",
+      "/Users/macbookair/StudioProjects/base_project/app/android/app/.cxx/RelWithDebInfo/53a403w2/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/macbookair/Library/Android/sdk/cmake/3.18.1/bin/ninja",
+    "-C",
+    "/Users/macbookair/StudioProjects/base_project/app/android/app/.cxx/RelWithDebInfo/53a403w2/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {},
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/Users/macbookair/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/Users/macbookair/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": []
+}

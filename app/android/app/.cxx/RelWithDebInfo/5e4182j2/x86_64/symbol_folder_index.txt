@@ -1,0 +1,1 @@
+/Users/macbookair/StudioProjects/base_project/app/android/app/build/intermediates/cxx/RelWithDebInfo/5e4182j2/obj/x86_64
